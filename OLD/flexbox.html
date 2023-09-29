@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox in css</title>
+    <style>
+      .container {
+        height: 544px;
+        width: 100%;
+        border: 1px solid black;
+        /* insilayz flexbox */
+        display: flex;
+
+        /* flex-direction: row; is default */
+        /* flex-direction: column; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+
+        flex-wrap: wrap;
+        /* flex-wrap: wrap-reverse; */
+
+        /* flex-flow: row-reverse wrap;*/
+
+        /* justify-content: center; */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+
+        /* align-items: center; */
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        /* align-items: stretch; */
+      }
+      .item {
+        background-color: tomato;
+        border: 2px solid green;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding: 2px;
+      }
+      #item1 {
+        /* higher oder show in last */
+        order: 3;
+        flex-grow: 3;
+      }
+      #item2 {
+        flex-grow: 2;
+      }
+      #item3 {
+        flex-shrink: 3;
+      }
+      #item4 {
+        flex-basis: 320px;
+      }
+      #item5{
+        flex: 2 2 300px;
+      }
+      #item6{
+        /* align-self: center; */
+        align-self: flex-start; 
+        /* align-self: flex-end; */
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Flexbox</h3>
+    <div class="container">
+      <div class="item" id="item1">First Box</div>
+      <div class="item" id="item2">Second Box</div>
+      <div class="item" id="item3">Third Box</div>
+      <div class="item" id="item4">Fourth Box</div>
+      <div class="item" id="item5">Fifth Box</div>
+      <div class="item" id="item6">Sixth Box</div>
+    </div>
+  </body>
+</html>

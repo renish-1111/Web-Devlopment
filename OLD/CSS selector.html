@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selecter</title>
+    <style>
+        h1 {
+            background-color: red;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        div li p {
+            color: yellow;
+            background-color: brown;
+        }
+
+        /* div>p {
+            background-color: aqua;
+        } */
+
+        div+p {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is more css selecter</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>list paragraf</p>
+                </li>
+            </ul>
+            <p>This is paragraf</p>
+        </div>
+        <p>This is anther paragraf</p>
+    </div>
+    <p>This is outer paragraf</p>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribut and ntc child pseudo selector</title>
+    <style>
+        input {
+            display: block;
+        }
+
+        .container {
+            display: block;
+            margin: auto;
+            width: 233px;
+        }
+
+        input[type='text'] {
+            border: 2px solid red;
+        }
+
+        a[target] {
+            font-size: 10px;
+            color: blueviolet;
+        }
+
+        a[target='_self'] {
+            font-size: 15px;
+            color: aqua;
+        }
+
+        li:nth-child(3){
+            color: aqua;
+        }
+        li:nth-child(2n+0){
+            color: red;
+        }
+        li:nth-child(odd){
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="http://google.com" target="_blank">Go to google</a>
+        <a href="http://facebook.com" target="_self">Go to facebook</a>
+        <a href="http://instagram.com">Go to instagram</a>
+        <form action="" class="form-control">
+            <input type="text" placeholder="enter text">
+            <input type="password" placeholder="enter password">
+            <input type="submit" value="submit">
+        </form>
+        <ul>
+            <li class="item" id="item1">item1</li>
+            <li class="item" id="item2">item2</li>
+            <li class="item" id="item3">item3</li>
+            <li class="item" id="item4">item4</li>
+            <li class="item" id="item5">item5</li>
+            <li class="item" id="item6">item6</li>
+        </ul>
+    </div>
+</body>
+
+</html>

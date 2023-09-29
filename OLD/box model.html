@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        .container {
+            background-color: rgb(165, 125, 201);
+            border: 3px solid black;
+            padding: 22px 22px;
+            /* top/bottom & right/left OR top right bottom left */
+            margin: 23px 15px 55px 50px;
+            /* top/bottom & right/left OR top right bottom left */
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is heading</h3>
+        <p id="first">This is paragraf</p>
+    </div>
+    <div class="container">
+        <h3>This is heading</h3>
+        <p id="second">This is paragraf</p>
+    </div>
+    <div class="container">
+        <h3>This is heading</h3>
+        <p id="third">This is paragraf</p>
+    </div>
+
+</body>
+
+</html>

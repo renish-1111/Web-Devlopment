@@ -1,0 +1,83 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    color: aliceblue;
+
+    left: 12px;
+    top: 12px;
+
+
+}
+
+.mid {
+    display: block;
+    color: aliceblue;
+
+    width: 50%;
+    padding: 0px 0px 0px 73px;
+    margin: 50px auto;
+
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    color: aliceblue;
+    right: 12px;
+    top: 12px;
+
+}
+
+ul {
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 10px;
+
+}
+
+li a {
+    display: inline-block;
+    padding: 10px 8px;
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(42 32 22);
+    border-radius: 9px;
+    margin: 0px 2px;
+    font-size: 15px;
+}
+
+li a:hover {
+    color: rgb(200, 146, 46);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.left img {
+    width: 6%;
+}
+
+samp {
+    position: absolute;
+    top: 7PX;
+    margin: 0PX 0PX 0PX 9PX;
+    padding: 0PX 0PX 0PX 0PX;
+    font-size: medium;
+}
+
+.BTN {
+    background-color: grey;
+    color: beige;
+    cursor: pointer;
+}
