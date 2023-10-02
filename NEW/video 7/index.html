@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form to apply</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username:</label>
+            <input type="text" placeholder="Enter your username" name="username" id="username" autofocus>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <label for="Game">Game:</label>
+            <input type="checkbox" id="cricket" value="cricket" name="cricket">
+            <label for="cricket">cricket</label>
+            <input type="checkbox" id="hokey" value="hokey" name="hokey">
+            <label for="hokey">hokey</label>
+            <input type="checkbox" id="football" value="football" name=football">
+            <label for="football">football</label>
+        </div>
+        <div>
+            <label for="self">Comment:</label>
+            <textarea name="self" id="self" cols="36" rows="4">Write about your self...</textarea>
+        </div>
+        <div>
+            <label for="car">Choose:</label>
+            <select name="car" id="car">
+                <option value="audi">Audi</option>
+                <option value="bmw">Bmw</option>
+                <option value="honda">Honda</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+
+</html>
