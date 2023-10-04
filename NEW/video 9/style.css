@@ -1,0 +1,15 @@
+#first{
+    border: 2px solid red;
+}
+#second{
+    border: 2px solid rgb(4, 77, 23);
+}
+#third{
+    border: 2px solid rgb(0, 0, 0);
+}
+.red{
+    background-color: rgb(224, 125, 125);
+}
+.blue{
+    background-color: rgb(174, 166, 245);
+}
