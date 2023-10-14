@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: rgb(71, 187, 108);
+        }
+
+        .red {
+            background-color: rgb(223, 36, 36);
+        }
+
+        #yellow {
+            background-color: rgb(249, 233, 0);
+        }
+
+        div>p {
+            background-color: rgb(201, 220, 234);
+        }
+        span p {
+            background-color: rgb(202, 201, 234);
+        }
+
+        /* unversal selector */
+        *{
+            font-family: fantasy;
+        }
+
+        /* pseudo selector */
+        a:visited{
+            color: green;
+        }
+        a:link{
+            color: burlywood;
+        }
+        a:active{
+            background-color: black;
+            color: white;
+        }
+        a:hover{
+            background-color: aquamarine;
+            color: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        I am div
+    </div>
+    <div class="red">
+        I am another div
+    </div>
+    <div id="yellow">
+        I am another div
+    </div>
+    <div>
+        <p>
+            inside div p
+        </p>
+    </div>
+    <span>
+        <article>
+            <p>
+                inside span artical p
+            </p>
+        </article>
+    <a href="https://www.google.com">Google</a>
+    </span>
+</body>
+
+</html>
