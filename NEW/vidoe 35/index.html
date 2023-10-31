@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More in css selecter</title>
+    <style>
+
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box::first-line {
+            color: orangered;
+        } */
+
+        /* .boxes *{
+            border: 2px solid black;
+            color: purple;
+        } */
+
+        /* [data-colour="Primary"]{
+            margin-top: 20px;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: bisque;
+        } */
+
+        /* .box:nth-last-child(1){
+            background-color: red;
+        } */
+
+        .boxes::before{
+            content: "Hey What up";
+            color: blueviolet;
+        }
+        .boxes::after{
+            display: block;
+            content: "How are you";
+            color: rgb(43, 226, 147);
+        }
+        ::selection{
+            color: gray;
+            background-color: wheat;
+        }
+        .box::first-letter{
+            color: goldenrod;
+            font-size: 45px;
+        }
+        input::placeholder{
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestias animi consequuntur, qui error, ipsa labore, tempora voluptatum nihil minima dolore dicta doloremque!
+        </div>
+        <div data-colour="Primary" class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text" placeholder="type any thing">
+    </div>
+</body>
+
+</html>
