@@ -1,0 +1,37 @@
+.container {
+  background-color: black;
+  height: 200px;
+  width: 1000px;
+  position: absolute;
+
+}
+
+.circul {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  animation: x 3s linear infinite,y 1s ease-out infinite alternate;
+}
+
+@keyframes x {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes y {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: 60%;
+  }
+}
