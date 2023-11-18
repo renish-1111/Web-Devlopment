@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("asset/img/BACKGROUND.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+
+}
+
+.main .box {
+    opacity: 40%;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    max-width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 148px;
+}
+
+nav a {
+    position: relative;
+    z-index: 10;
+    background-color: rgb(229, 9, 20);
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+nav select {
+    position: relative;
+    z-index: 10;
+    padding: 6px 32px;
+    background-color: black;
+    /* opacity: 32%; */
+    color: white;
+}
+
+.main .toptext1{
+    position: relative;
+    z-index: 10;
+    font-size: 48px;
+    margin: 30px;
+
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+}
