@@ -5,27 +5,29 @@
 
 .main {
     background-image: url("asset/img/BACKGROUND.jpg");
-    height: 80vh;
+    height: 120vh;
     position: relative;
-    background-position: center;
+    /* background-position: center; */
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-
+    text-align: center;
+    margin: 0;
 }
 
 .main .box {
-    opacity: 40%;
-    height: 80vh;
+    opacity: 45%;
+
+    height: 120vh;
     width: 100%;
     background-color: black;
     position: absolute;
     top: 0;
+
 }
 
 nav {
     display: flex;
-    padding: 20px;
-    max-width: 95%;
+    padding: 35px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -35,6 +37,17 @@ nav img {
     position: relative;
     z-index: 10;
     width: 148px;
+
+}
+
+nav select {
+
+    position: relative;
+    z-index: 10;
+    padding: 6px 32px;
+    background-color: black;
+    color: white;
+
 }
 
 nav a {
@@ -48,25 +61,93 @@ nav a {
     font-family: sans-serif;
     color: white;
 
+
 }
 
-nav select {
+
+.main .toptext1 {
     position: relative;
     z-index: 10;
-    padding: 6px 32px;
-    background-color: black;
-    /* opacity: 32%; */
+    font-size: 4vw;
+    margin: 10px;
     color: white;
-}
-
-.main .toptext1{
-    position: relative;
-    z-index: 10;
-    font-size: 48px;
-    margin: 30px;
-
-    color: white;
-    text-align: center;
     font-weight: 900;
     font-family: sans-serif;
+    display: flex;
+
+    text-align: center;
+    top: 15%;
+
+}
+
+.main .toptext2 {
+    position: relative;
+    z-index: 10;
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 15%;
+}
+
+.main .toptext3 {
+    position: relative;
+
+    z-index: 10;
+    font-size: 20px;
+
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 20%;
+
+}
+
+.email {
+    position: relative;
+    z-index: 10;
+    top: 160px;
+    height: 55px;
+    width: 360px;
+    background-color: rgb(0, 0, 0);
+
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 10px;
+    filter: contrast(85%);
+
+    opacity: 60%;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+
+
+.main .get {
+    position: relative;
+    z-index: 10;
+    top: 160px;
+    height: 55px;
+
+
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 0px 20px;
+    border: 0px;
+}
+
+.main .line{
+    border: 5px solid gray;
+    height: 1px;
 }
