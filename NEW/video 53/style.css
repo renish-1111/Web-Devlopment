@@ -3,9 +3,13 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+}
+
 .main {
     background-image: url("asset/img/BACKGROUND.jpg");
-    height: 120vh;
+    height: 112vh;
     position: relative;
     /* background-position: center; */
     background-size: max(1200px, 100vw);
@@ -15,11 +19,12 @@
 }
 
 .main .box {
-    opacity: 45%;
+    /* opacity: 70%; */
 
-    height: 120vh;
+    height: 112vh;
     width: 100%;
-    background-color: black;
+    background: rgb(0 0 0 / 40%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
     position: absolute;
     top: 0;
 
@@ -27,7 +32,7 @@
 
 nav {
     display: flex;
-    padding: 35px;
+    padding: 25px 30px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +60,7 @@ nav a {
     z-index: 10;
     background-color: rgb(229, 9, 20);
     padding: 7px;
-    border-radius: 3px;
+    border-radius: 4px;
     font-weight: lighter;
     text-decoration: none;
     font-family: sans-serif;
@@ -68,13 +73,13 @@ nav a {
 .main .toptext1 {
     position: relative;
     z-index: 10;
-    font-size: 4vw;
+    font-size: 48px;
     margin: 10px;
     color: white;
     font-weight: 900;
     font-family: sans-serif;
     display: flex;
-
+    justify-content: center;
     text-align: center;
     top: 15%;
 
@@ -147,7 +152,60 @@ nav a {
     border: 0px;
 }
 
-.main .line{
+.main .line {
     border: 5px solid gray;
     height: 1px;
+}
+
+@media only screen and (max-width: 500px) {
+    .main {
+        height: 568px;
+    }
+
+    .main .box {
+        height: 568px;
+    }
+
+    nav img {
+        width: 95px;
+    }
+
+    nav a {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 7px 15px;
+    }
+
+    .main .toptext1 {
+        top: 25px;
+        font-size: 31px;
+        padding: 0px 25px;
+    }
+
+    .main .toptext2 {
+        top: 45px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .main .toptext3 {
+        top: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0px 50px;
+    }
+
+    .email {
+        top: 90px;
+        height: 45px;
+        width: 270px;
+    }
+
+    .main .get {
+        top: 105px;
+        font-weight: 700;
+        height: 50px;
+        font-size: 18px;
+
+    }
 }
