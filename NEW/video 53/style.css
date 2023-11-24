@@ -252,8 +252,8 @@ nav a {
     border-radius: 15px;
     z-index: 10;
     position: relative;
-    left: 0px;
-    top: 50vh;
+    left: 110px;
+    top: 310px;
 }
 
 .second .content .Download img:nth-child(1){
