@@ -9,7 +9,7 @@ body {
 
 .main {
     background-image: url("asset/img/BACKGROUND.jpg");
-    height: 112vh;
+    height: 690px;
     position: relative;
     /* background-position: center; */
     background-size: max(1200px, 100vw);
@@ -21,7 +21,7 @@ body {
 .main .box {
     /* opacity: 70%; */
 
-    height: 112vh;
+    height: 690px;
     width: 100%;
     background: rgb(0 0 0 / 40%);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
@@ -162,7 +162,7 @@ nav a {
     display: flex;
     width: 100vw;
     margin: 50px 0px 50px 0px;
-    height: 78vh;
+    height: 450px;
     /* border: 2px solid red; */
 }
 
@@ -174,7 +174,7 @@ nav a {
 
 
     color: rgb(255, 255, 255);
-    width: 50vw;
+    width: 50%;
     box-sizing: border-box;
 }
 
@@ -195,7 +195,7 @@ nav a {
 }
 
 .first .content {
-    width: 50vw;
+    width: 50%;
     box-sizing: border-box;
 
 }
@@ -204,7 +204,7 @@ nav a {
     text-align: center;
     display: flex;
     position: absolute;
-    width: 45vw;
+    width:520px;
     align-items: center;
     justify-content: center;
 }
@@ -215,17 +215,17 @@ nav a {
     justify-content: center;
     text-align: center;
     position: relative;
-    top: 14vh;
-    width: 33vw;
+    top: 80px;
+    width:390px;
     left: 71px;
     z-index: -1
 }
 
 .second {
     display: flex;
-    width: 100vw;
+    width: 100%;
     margin: 50px 0px 50px 0px;
-    height: 78vh;
+    height: 450px;
     /* border: 2px solid red; */
 }
 
@@ -238,24 +238,59 @@ nav a {
     text-align: center;
     display: flex;
     position: absolute;
-    width: 45vw;
+    width: 580px;
     align-items: center;
     justify-content: center;
     position: absolute;
 }
 
 .second .content .Download {
-    height: 15vh;
-    width: 30vw;
+    height: 90px;
+    width: 360px;
     background-color: #000000;
     border: 2px solid gray;
     border-radius: 15px;
     z-index: 10;
     position: relative;
-    left: 7vw;
-    top: 50vh
+    left: 0px;
+    top: 50vh;
 }
 
+.second .content .Download img:nth-child(1){
+    width: 50px;
+    margin: 10px;
+}
+
+.second .content .Download div:nth-child(2){
+
+    
+    margin: 25px 0px 0px 80px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: sans-serif;
+
+    
+}
+.second .content .Download div:nth-child(3){
+
+    
+    margin: 0px 0px 0px 80px;
+    
+    color: #0071eb;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+
+.second .content .Download :nth-child(4){
+    width: 50px;
+    margin: 10px;
+    display: flex;
+    bottom: 10px;
+    left: 280px;
+}
 
 .second .sectext2 {
 
@@ -283,6 +318,69 @@ nav a {
     font-weight: 200;
     font-size: 24px;
     font-family: sans-serif;
+}
+
+.third {
+    display: flex;
+    width: 100vw;
+    margin: 50px 0px 50px 0px;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+
+.third .sectext3 {
+
+    /* display:flex; */
+    padding: 40px;
+    align-self: center;
+
+
+    color: rgb(255, 255, 255);
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.third .sectext3 h2 {
+
+
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.third .sectext3 div {
+
+    font-weight: 200;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.third .content {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.third img {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width:520px;
+    align-items: center;
+    justify-content: center;
+}
+
+.third video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    width:340px;
+    left: 85px;
+    z-index: -1
 }
 
 @media only screen and (max-width: 500px) {
