@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // Async Array Mapping: Write an asynchronous function that takes an array of numbers and returns a new array of Promises where each number is multiplied by 2 after a delay of 500 milliseconds.
+
+        let numArr = [23, 56, 32, 8, 1, 56, 16, 7]
+
+        async function multiplier(arr) {
+            return arr.map(num => new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve(num * 2)
+                }, 500);
+            }))
+
+        }
+       let Result = []
+        Result = multiplier(numArr)
+
+
+    </script>
+</body>
+
+</html>

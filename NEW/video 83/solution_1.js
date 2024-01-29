@@ -26,3 +26,4 @@ console.log(Gryffindor)
 console.log(Hufflepuff)
 console.log(Ravenclaw)
 console.log(Slytherin)
+
