@@ -1,0 +1,17 @@
+.Card{
+    width: 20vw;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.Card h1 {
+    text-align: center;
+    margin: 2px;
+}
+.Card p {
+    margin: 5px;
+}
+
+.Card img{
+    width: 20vw;
+}

@@ -1,0 +1,9 @@
+.text{
+    text-align: center;
+    position: fixed;
+    bottom: 3px;
+    width: 100vw;
+    height: 30px;
+    background: #222121;
+    color: aliceblue;
+}

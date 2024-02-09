@@ -1,0 +1,11 @@
+nav ul {
+    display: flex;
+}
+ul{
+    list-style: none;
+    gap: 43px;
+}
+nav{
+    background: lightseagreen;
+    padding: 10px;
+}
